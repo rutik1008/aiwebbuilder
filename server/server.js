@@ -7,8 +7,11 @@ app.use(cors());
 app.use(express.json());
 app.post(`/chat`,async(req,res)=>
 {
+    
    const response =await main(req.body);
-  res.send( response);
+   console.log(response);
+  
+   
 })
 
 app.listen(`3000`,()=>

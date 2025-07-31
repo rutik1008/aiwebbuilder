@@ -686,9 +686,7 @@ var _fileSaver = require("file-saver");
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
 var _indexCssUrl = require("./index.css?url"); // Updated import
-var _buffer = require("buffer");
 var _s = $RefreshSig$();
-window.Buffer = (0, _buffer.Buffer);
 function App() {
     _s();
     const [prompt, setPrompt] = (0, _react.useState)("");
@@ -767,7 +765,7 @@ function App() {
                                         children: "WebArtist"
                                     }, void 0, false, {
                                         fileName: "src/App.js",
-                                        lineNumber: 80,
+                                        lineNumber: 77,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -775,13 +773,13 @@ function App() {
                                         children: "Generate, preview and download code with ease"
                                     }, void 0, false, {
                                         fileName: "src/App.js",
-                                        lineNumber: 83,
+                                        lineNumber: 80,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/App.js",
-                                lineNumber: 79,
+                                lineNumber: 76,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -795,25 +793,25 @@ function App() {
                                             children: theme === "dark" ? "light_mode" : "dark_mode"
                                         }, void 0, false, {
                                             fileName: "src/App.js",
-                                            lineNumber: 92,
+                                            lineNumber: 89,
                                             columnNumber: 33
                                         }, this),
                                         theme === "dark" ? "Light Mode" : "Dark Mode"
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/App.js",
-                                    lineNumber: 88,
+                                    lineNumber: 85,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/App.js",
-                                lineNumber: 87,
+                                lineNumber: 84,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/App.js",
-                        lineNumber: 78,
+                        lineNumber: 75,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -830,7 +828,7 @@ function App() {
                                             children: "Your Prompt"
                                         }, void 0, false, {
                                             fileName: "src/App.js",
-                                            lineNumber: 103,
+                                            lineNumber: 100,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
@@ -841,7 +839,7 @@ function App() {
                                             className: "w-full h-48 p-4 border border-gray-300 dark:border-gray-600 rounded-lg bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200 outline-none resize-none"
                                         }, void 0, false, {
                                             fileName: "src/App.js",
-                                            lineNumber: 109,
+                                            lineNumber: 106,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -854,25 +852,25 @@ function App() {
                                                     children: "code"
                                                 }, void 0, false, {
                                                     fileName: "src/App.js",
-                                                    lineNumber: 121,
+                                                    lineNumber: 118,
                                                     columnNumber: 37
                                                 }, this),
                                                 isLoading ? "Generating..." : "Generate Code"
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/App.js",
-                                            lineNumber: 116,
+                                            lineNumber: 113,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/App.js",
-                                    lineNumber: 102,
+                                    lineNumber: 99,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/App.js",
-                                lineNumber: 101,
+                                lineNumber: 98,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -889,14 +887,14 @@ function App() {
                                                         children: "settings"
                                                     }, void 0, false, {
                                                         fileName: "src/App.js",
-                                                        lineNumber: 130,
+                                                        lineNumber: 127,
                                                         columnNumber: 37
                                                     }, this),
                                                     "Actions"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 129,
+                                                lineNumber: 126,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -911,25 +909,25 @@ function App() {
                                                             children: "download"
                                                         }, void 0, false, {
                                                             fileName: "src/App.js",
-                                                            lineNumber: 139,
+                                                            lineNumber: 136,
                                                             columnNumber: 41
                                                         }, this),
                                                         "Download ZIP"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/App.js",
-                                                    lineNumber: 134,
+                                                    lineNumber: 131,
                                                     columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 133,
+                                                lineNumber: 130,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/App.js",
-                                        lineNumber: 128,
+                                        lineNumber: 125,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -943,14 +941,14 @@ function App() {
                                                         children: "info"
                                                     }, void 0, false, {
                                                         fileName: "src/App.js",
-                                                        lineNumber: 147,
+                                                        lineNumber: 144,
                                                         columnNumber: 37
                                                     }, this),
                                                     "Status"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 146,
+                                                lineNumber: 143,
                                                 columnNumber: 33
                                             }, this),
                                             isLoading && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -971,7 +969,7 @@ function App() {
                                                                 strokeWidth: "4"
                                                             }, void 0, false, {
                                                                 fileName: "src/App.js",
-                                                                lineNumber: 158,
+                                                                lineNumber: 155,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
@@ -980,13 +978,13 @@ function App() {
                                                                 d: "M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
                                                             }, void 0, false, {
                                                                 fileName: "src/App.js",
-                                                                lineNumber: 166,
+                                                                lineNumber: 163,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/App.js",
-                                                        lineNumber: 152,
+                                                        lineNumber: 149,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -996,7 +994,7 @@ function App() {
                                                                 children: "Processing your request..."
                                                             }, void 0, false, {
                                                                 fileName: "src/App.js",
-                                                                lineNumber: 173,
+                                                                lineNumber: 170,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -1004,19 +1002,19 @@ function App() {
                                                                 children: "This may take a few moments"
                                                             }, void 0, false, {
                                                                 fileName: "src/App.js",
-                                                                lineNumber: 174,
+                                                                lineNumber: 171,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/App.js",
-                                                        lineNumber: 172,
+                                                        lineNumber: 169,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 151,
+                                                lineNumber: 148,
                                                 columnNumber: 37
                                             }, this),
                                             error && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -1027,7 +1025,7 @@ function App() {
                                                         children: "error"
                                                     }, void 0, false, {
                                                         fileName: "src/App.js",
-                                                        lineNumber: 182,
+                                                        lineNumber: 179,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -1037,7 +1035,7 @@ function App() {
                                                                 children: "Error encountered"
                                                             }, void 0, false, {
                                                                 fileName: "src/App.js",
-                                                                lineNumber: 184,
+                                                                lineNumber: 181,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -1045,19 +1043,19 @@ function App() {
                                                                 children: error
                                                             }, void 0, false, {
                                                                 fileName: "src/App.js",
-                                                                lineNumber: 185,
+                                                                lineNumber: 182,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/App.js",
-                                                        lineNumber: 183,
+                                                        lineNumber: 180,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 181,
+                                                lineNumber: 178,
                                                 columnNumber: 37
                                             }, this),
                                             !isLoading && !error && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -1070,7 +1068,7 @@ function App() {
                                                             children: "check_circle"
                                                         }, void 0, false, {
                                                             fileName: "src/App.js",
-                                                            lineNumber: 192,
+                                                            lineNumber: 189,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -1080,7 +1078,7 @@ function App() {
                                                                     children: Object.keys(files).length ? "Files ready" : "Ready to generate"
                                                                 }, void 0, false, {
                                                                     fileName: "src/App.js",
-                                                                    lineNumber: 196,
+                                                                    lineNumber: 193,
                                                                     columnNumber: 49
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -1088,30 +1086,30 @@ function App() {
                                                                     children: Object.keys(files).length ? `${Object.keys(files).length} files available for download` : "Enter a prompt to get started"
                                                                 }, void 0, false, {
                                                                     fileName: "src/App.js",
-                                                                    lineNumber: 199,
+                                                                    lineNumber: 196,
                                                                     columnNumber: 49
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/App.js",
-                                                            lineNumber: 195,
+                                                            lineNumber: 192,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/App.js",
-                                                    lineNumber: 191,
+                                                    lineNumber: 188,
                                                     columnNumber: 41
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 190,
+                                                lineNumber: 187,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/App.js",
-                                        lineNumber: 145,
+                                        lineNumber: 142,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -1125,14 +1123,14 @@ function App() {
                                                         children: "tips_and_updates"
                                                     }, void 0, false, {
                                                         fileName: "src/App.js",
-                                                        lineNumber: 212,
+                                                        lineNumber: 209,
                                                         columnNumber: 37
                                                     }, this),
                                                     "Tips"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 211,
+                                                lineNumber: 208,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -1146,14 +1144,14 @@ function App() {
                                                                 children: "arrow_right"
                                                             }, void 0, false, {
                                                                 fileName: "src/App.js",
-                                                                lineNumber: 217,
+                                                                lineNumber: 214,
                                                                 columnNumber: 41
                                                             }, this),
                                                             "Be specific about frameworks and styling"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/App.js",
-                                                        lineNumber: 216,
+                                                        lineNumber: 213,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -1164,14 +1162,14 @@ function App() {
                                                                 children: "arrow_right"
                                                             }, void 0, false, {
                                                                 fileName: "src/App.js",
-                                                                lineNumber: 223,
+                                                                lineNumber: 220,
                                                                 columnNumber: 41
                                                             }, this),
                                                             "Mention any dependencies required"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/App.js",
-                                                        lineNumber: 222,
+                                                        lineNumber: 219,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -1182,38 +1180,38 @@ function App() {
                                                                 children: "arrow_right"
                                                             }, void 0, false, {
                                                                 fileName: "src/App.js",
-                                                                lineNumber: 229,
+                                                                lineNumber: 226,
                                                                 columnNumber: 41
                                                             }, this),
                                                             "Describe the desired functionality clearly"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/App.js",
-                                                        lineNumber: 228,
+                                                        lineNumber: 225,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 215,
+                                                lineNumber: 212,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/App.js",
-                                        lineNumber: 210,
+                                        lineNumber: 207,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/App.js",
-                                lineNumber: 127,
+                                lineNumber: 124,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/App.js",
-                        lineNumber: 100,
+                        lineNumber: 97,
                         columnNumber: 21
                     }, this),
                     previewUrl && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -1227,14 +1225,14 @@ function App() {
                                         children: "preview"
                                     }, void 0, false, {
                                         fileName: "src/App.js",
-                                        lineNumber: 242,
+                                        lineNumber: 239,
                                         columnNumber: 33
                                     }, this),
                                     "Live Preview"
                                 ]
                             }, void 0, true, {
                                 fileName: "src/App.js",
-                                lineNumber: 241,
+                                lineNumber: 238,
                                 columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -1250,27 +1248,27 @@ function App() {
                                                         className: "w-3 h-3 rounded-full bg-red-500"
                                                     }, void 0, false, {
                                                         fileName: "src/App.js",
-                                                        lineNumber: 248,
+                                                        lineNumber: 245,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                         className: "w-3 h-3 rounded-full bg-yellow-500"
                                                     }, void 0, false, {
                                                         fileName: "src/App.js",
-                                                        lineNumber: 249,
+                                                        lineNumber: 246,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                         className: "w-3 h-3 rounded-full bg-green-500"
                                                     }, void 0, false, {
                                                         fileName: "src/App.js",
-                                                        lineNumber: 250,
+                                                        lineNumber: 247,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 247,
+                                                lineNumber: 244,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -1278,13 +1276,13 @@ function App() {
                                                 children: "preview"
                                             }, void 0, false, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 252,
+                                                lineNumber: 249,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/App.js",
-                                        lineNumber: 246,
+                                        lineNumber: 243,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
@@ -1295,19 +1293,19 @@ function App() {
                                         sandbox: "allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
                                     }, void 0, false, {
                                         fileName: "src/App.js",
-                                        lineNumber: 256,
+                                        lineNumber: 253,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/App.js",
-                                lineNumber: 245,
+                                lineNumber: 242,
                                 columnNumber: 29
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/App.js",
-                        lineNumber: 240,
+                        lineNumber: 237,
                         columnNumber: 25
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
@@ -1320,7 +1318,7 @@ function App() {
                                     children: "\xa9 2023 Code Preview Generator - Create, preview and share code with ease"
                                 }, void 0, false, {
                                     fileName: "src/App.js",
-                                    lineNumber: 269,
+                                    lineNumber: 266,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -1333,12 +1331,12 @@ function App() {
                                                 className: "fa-brands fa-github text-xl"
                                             }, void 0, false, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 277,
+                                                lineNumber: 274,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "src/App.js",
-                                            lineNumber: 273,
+                                            lineNumber: 270,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -1348,12 +1346,12 @@ function App() {
                                                 className: "fa-brands fa-twitter text-xl"
                                             }, void 0, false, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 283,
+                                                lineNumber: 280,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "src/App.js",
-                                            lineNumber: 279,
+                                            lineNumber: 276,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -1363,45 +1361,45 @@ function App() {
                                                 className: "fa-brands fa-discord text-xl"
                                             }, void 0, false, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 289,
+                                                lineNumber: 286,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "src/App.js",
-                                            lineNumber: 285,
+                                            lineNumber: 282,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/App.js",
-                                    lineNumber: 272,
+                                    lineNumber: 269,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/App.js",
-                            lineNumber: 268,
+                            lineNumber: 265,
                             columnNumber: 25
                         }, this)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 267,
+                        lineNumber: 264,
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.js",
-                lineNumber: 77,
+                lineNumber: 74,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 76,
+            lineNumber: 73,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "src/App.js",
-        lineNumber: 75,
+        lineNumber: 72,
         columnNumber: 9
     }, this);
 }
@@ -1409,7 +1407,7 @@ _s(App, "CRhnD9E51WQsQnYUQ5Bo2xQuNh0=");
 _c = App;
 (0, _clientDefault.default).createRoot(document.getElementById(`root`)).render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 302,
+    lineNumber: 299,
     columnNumber: 61
 }, undefined));
 var _c;
@@ -1420,7 +1418,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","jszip":"fhdYz","file-saver":"apCnQ","react-dom/client":"hrvwu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./index.css?url":"fJDsE","buffer":"bCaf4"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","jszip":"fhdYz","file-saver":"apCnQ","react-dom/client":"hrvwu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./index.css?url":"fJDsE"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -5760,15 +5758,15 @@ var process = require("cf30dbb97a1d82ba");
     ])(10);
 });
 
-},{"f7295d6075386111":"bCaf4","cf30dbb97a1d82ba":"euskh"}],"bCaf4":[function(require,module,exports,__globalThis) {
+},{"f7295d6075386111":"3ZlP0","cf30dbb97a1d82ba":"euskh"}],"3ZlP0":[function(require,module,exports,__globalThis) {
 /*!
  * The buffer module from node.js, for the browser.
  *
  * @author   Feross Aboukhadijeh <https://feross.org>
  * @license  MIT
  */ /* eslint-disable no-proto */ 'use strict';
-const base64 = require("9c62938f1dccc73c");
-const ieee754 = require("aceacb6a4531a9d2");
+const base64 = require("936d7d40ee51556e");
+const ieee754 = require("a9454e8447bbf491");
 const customInspectSymbol = typeof Symbol === 'function' && typeof Symbol['for'] === 'function' // eslint-disable-line dot-notation
  ? Symbol['for']('nodejs.util.inspect.custom') // eslint-disable-line dot-notation
  : null;
@@ -7186,7 +7184,7 @@ function BufferBigIntNotDefined() {
     throw new Error('BigInt not supported');
 }
 
-},{"9c62938f1dccc73c":"9I2RJ","aceacb6a4531a9d2":"geXY6"}],"9I2RJ":[function(require,module,exports,__globalThis) {
+},{"936d7d40ee51556e":"1jiHA","a9454e8447bbf491":"2h4Mv"}],"1jiHA":[function(require,module,exports,__globalThis) {
 'use strict';
 exports.byteLength = byteLength;
 exports.toByteArray = toByteArray;
@@ -7286,7 +7284,7 @@ function fromByteArray(uint8) {
     return parts.join('');
 }
 
-},{}],"geXY6":[function(require,module,exports,__globalThis) {
+},{}],"2h4Mv":[function(require,module,exports,__globalThis) {
 /*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */ exports.read = function(buffer, offset, isLE, mLen, nBytes) {
     var e, m;
     var eLen = nBytes * 8 - mLen - 1;
