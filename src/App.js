@@ -109,7 +109,10 @@ export default function App() {
                                 <textarea
                                     id="prompt"
                                     value={prompt}
-                                    onChange={(e) => setPrompt(e.target.value)}
+                                    onChange={(e) => setPrompt(e.target.value)
+
+                                    
+                                    }
                                     placeholder="Describe the code you want to generate..."
                                     className="w-full h-48 p-4 border border-gray-300 dark:border-gray-600 rounded-lg bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200 outline-none resize-none"
                                 ></textarea>
